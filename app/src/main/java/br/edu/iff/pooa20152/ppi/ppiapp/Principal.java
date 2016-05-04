@@ -26,7 +26,7 @@ public class Principal extends AppCompatActivity {
     }
 
     public void chamarProAlu (View v) {
-        startActivity(new Intent(this, AlocarProfessor.class));
+        startActivity(new Intent(this, Turma.class));
     }
 
     public void chamarNota (View v) {

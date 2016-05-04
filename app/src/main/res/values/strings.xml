@@ -7,8 +7,8 @@
     <string name="inscricao">Realizar Inscrição</string>
     <string name="cadProf">Cadastrar Professor</string>
     <string name="cadCurso">Cadastrar Curso</string>
-    <string name="profAlu">Alocar Professor e Aluno Turma</string>
-    <string name="notaFalta">Lançar Nota e Falta Aluno</string>
+    <string name="profAlu">Alocar Professor e Aluno</string>
+    <string name="notaFalta">Lançar Nota e Falta</string>
     <string name="nome">Nome:</string>
     <string name="enredeco">Endereco:</string>
     <string name="telefone">Telefone</string>
@@ -38,4 +38,5 @@
     <string name="idLancar">ID:</string>
     <string name="idCurso">ID Curso:</string>
     <string name="idAlocar">ID:</string>
+    <string name="professor">Professor:</string>
 </resources>
