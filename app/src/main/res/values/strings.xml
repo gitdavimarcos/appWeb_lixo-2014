@@ -39,4 +39,5 @@
     <string name="idCurso">ID Curso:</string>
     <string name="idAlocar">ID:</string>
     <string name="professor">Professor:</string>
+    <string name="URL">http://ppi2016.herokuapp.com/</string>
 </resources>
