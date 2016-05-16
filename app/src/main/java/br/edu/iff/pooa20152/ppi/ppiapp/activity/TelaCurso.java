@@ -20,6 +20,7 @@ import br.edu.iff.pooa20152.ppi.ppiapp.R;
 import br.edu.iff.pooa20152.ppi.ppiapp.domain.Curso;
 import br.edu.iff.pooa20152.ppi.ppiapp.domain.Curso;
 import br.edu.iff.pooa20152.ppi.ppiapp.domain.CursoService;
+import br.edu.iff.pooa20152.ppi.ppiapp.domain.Professor;
 import br.edu.iff.pooa20152.ppi.ppiapp.helper.RestFullHelper;
 
 public class TelaCurso extends AppCompatActivity {
@@ -106,7 +107,7 @@ public class TelaCurso extends AppCompatActivity {
         try {
             params.put("nome", edNome.getText().toString());
             params.put("descricao", edDescricao.getText().toString());
-            params.put("professor", edProfessor.getText().toString());
+            params.put("professor_id", edProfessor.getText().toString());
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -125,7 +126,7 @@ public class TelaCurso extends AppCompatActivity {
             params.put("id", edIdCurso.getText().toString());
             params.put("nome", edNome.getText().toString());
             params.put("descricao", edDescricao.getText().toString());
-            params.put("professor", edProfessor.getText().toString());
+            params.put("professor_id", edProfessor.getText().toString());
 
         } catch (JSONException e) {
             e.printStackTrace();
